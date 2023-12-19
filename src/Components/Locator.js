@@ -20,7 +20,7 @@ function Locator(props) {
   let url = "";
   switch (destination) {
     case "SC":
-      url = `https://suttacentral.net/${locationForUrl}/en/sujato`;
+      url = `ssp://suttas/${locationForUrl}/en/sujato`;
       break;
     case "SCL":
       url = `https://sc.readingfaithfully.org/?q=${locationForUrl}`;
@@ -32,7 +32,7 @@ function Locator(props) {
       url = `https://voice.suttacentral.net/scv/index.html#/sutta?search=${locationForUrl}`;
       break;
     default:
-      url = `https://suttacentral.net/${locationForUrl}/en/sujato`;
+      url = `ssp://suttas/${locationForUrl}/en/sujato`;
   }
 
   if ("vv" === justBook(location) || "pv" === justBook(location)) {

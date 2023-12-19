@@ -18,9 +18,9 @@ export default function Info() {
     <div>
       <p>
         This is an incomplete and unpublished draft of an index of the Sutta Piṭaka. For more information, visit the{" "}
-        <a href="https://github.com/thesunshade/sutta-index#readme" rel="noreferrer" target="_blank">
-          ReadMe.
-        </a>
+        <a href="https://github.com/thesunshade/sutta-index#readme" rel="noreferrer" target="_blank">ReadMe.</a>
+        This copy is bundled with the <a href="https://simsapa.github.io/" rel="noreferrer" target="_blank">Simsapa Dhamma Reader</a>.
+        Visit <a href="https://index.readingfaithfully.org/" rel="noreferrer" target="_blank">index.readingfaithfully.org</a> to view the latest version of the index.
       </p>
 
       <details>

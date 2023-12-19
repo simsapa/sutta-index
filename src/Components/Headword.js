@@ -64,7 +64,7 @@ function Headword(props) {
           break;
         case "SC":
         default:
-          url = `https://suttacentral.net/${locationForUrl.toLowerCase()}/en/sujato`;
+          url = `ssp://suttas/${locationForUrl.toLowerCase()}/en/sujato`;
       }
       if ("vv" === justBook(location) || "pv" === justBook(location)) {
         url = `https://SuttaFriends.org/${convertVatthus(locationForUrl)}`;
